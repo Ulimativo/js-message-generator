@@ -7,8 +7,6 @@ const messageComponents = {
   end: ["more often", "always", "never", "daily", "weekly", "once a year"],
 };
 
-// var item = items[Math.floor(Math.random()*items.length)];
-
 function randomizer(items) {
   let item = items[Math.floor(Math.random() * items.length)];
   return item;
